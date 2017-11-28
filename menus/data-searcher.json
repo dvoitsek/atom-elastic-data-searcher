@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle data-searcher",
+        "command": "data-searcher:begin"
+      },
+      {
+        "label": "Run data-searcher",
+        "command": "data-searcher:runSearch"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "data-searcher",
+          "submenu": [
+            {
+              "label": "Start",
+              "command": "data-searcher:begin"
+            },
+            {
+              "label": "Find",
+              "command": "data-searcher:runSearch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
