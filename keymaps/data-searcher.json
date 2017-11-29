@@ -1,5 +1,7 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "data-searcher:toggle"
+    "ctrl-alt-shift-f": "data-searcher:begin",
+    "ctrl-alt-f": "data-searcher:runSearch",
+    "ctrl-alt-shift-c": "data-searcher:clear"
   }
 }
